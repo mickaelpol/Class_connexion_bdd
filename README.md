@@ -12,10 +12,10 @@ Classe permettant la connexion à une base de données facilement.
 
 3- Modifiez les constante dans la class App.php pour y mettre vos informations de base de données exemple :
 
-    const DB_NAME = "nom_de_votre_bdd";
-    const DB_USER = "root";
-    const DB_PASS = "";
-    const DB_HOST = "localhost";
+    const DB_NAME = "nom de votre base de données";
+    const DB_USER = "username de votre base de données";
+    const DB_PASS = "mot de passe de la base de données";
+    const DB_HOST = "port de la base de données";
 
 4- Pour finir il suffit d'utiliser la fonction App::getDb() pour se connecter à la bdd par exemple:
 

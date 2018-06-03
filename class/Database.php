@@ -54,7 +54,7 @@ class Database
     }
     
     /**
-     * Fonctione initialisant la connexion a la base de données et retourne l'instance dans $pdo
+     * Fonction initialisant la connexion a la base de données et retourne l'instance dans $pdo
      *
      */
     private function getPDO()
@@ -68,7 +68,7 @@ class Database
     }
 
     /**
-     * Fonctione permettant de récupérer les données d'une table
+     * Fonction permettant de récupérer les données d'une table
      *
      * @param string $statement
      * @return string
